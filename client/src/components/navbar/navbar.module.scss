@@ -1,0 +1,27 @@
+.navbar{
+    background-color: rgba(208, 208, 0, 0.492);
+    display: flex;
+    align-items: center;
+    height: 100px;
+    &__content{
+        width: 1280px;
+        margin:auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        &__left{
+            P{
+                font-size: 35px;
+            }
+        }
+        &__right{
+            display: flex;
+            flex-direction: row;
+            gap: 20px;
+            a{
+                color: black;
+                font-size: 20px;
+            }
+        }
+    }
+}
