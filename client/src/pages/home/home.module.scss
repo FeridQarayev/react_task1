@@ -1,24 +1,70 @@
-.home{
-    &__title{
-        height: 500px;
-        object-fit: cover;
-        background-repeat: no-repeat;
-        background-size: cover;
-        position: relative;
-        &__card{
-            position: absolute;
-            top: 25%;
-            left: 10%;
-            height: 100px;
-            width: 400px;
-            h1{
-                font-size: 45px;
-                color: white;
-            }
-            p{
-                color: white;
-                font-size: 20px;
-            }
-        }
+.home {
+  &__title {
+    height: 500px;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    &__card {
+      position: absolute;
+      top: 25%;
+      left: 10%;
+      height: 100px;
+      width: 400px;
+      h1 {
+        font-size: 45px;
+        color: white;
+      }
+      p {
+        color: white;
+        font-size: 20px;
+      }
     }
+  }
+
+  &__content {
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    margin-top: 20px;
+    &__body {
+      width: 1280px;
+      margin: auto;
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      &__title {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        h1 {
+          font-size: 50px;
+        }
+        span {
+          color: gray;
+        }
+      }
+      &__cards {
+        width: 1280px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        flex-wrap: wrap;
+        &__card {
+          width: 350px;
+          height: 250px;
+          box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+            rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+          border: 1px solid black;
+          margin-top: 20px;
+          &__content {
+            padding: 30px;
+            img {
+              width: 100px;
+            }
+          }
+        }
+      }
+    }
+  }
 }
