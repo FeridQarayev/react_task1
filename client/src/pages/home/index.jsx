@@ -151,6 +151,35 @@ function Home() {
           </div>
         </div>
       </div>
+
+      <div className={styled.home__customers}>
+        <div className={styled.home__customers__body}>
+          <div className={styled.home__customers__body__title}>
+            <h1>Happy Customers</h1>
+          </div>
+          <div className={styled.home__customers__body__content}>
+            <div className={styled.home__customers__body__content__card}>
+              <div className={styled.home__customers__body__content__card__up}>
+                <img
+                  src="https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553__340.png"
+                  alt="user"
+                />
+                <div>
+                  <h6>Lina Gold</h6>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Fugit delectus provident veritatis esse non sapiente quidem
+                    consectetur magnam nostrum eos.
+                  </p>
+                </div>
+              </div>
+              <div
+                className={styled.home__customers__body__content__card__down}
+              ></div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }

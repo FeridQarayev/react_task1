@@ -70,39 +70,53 @@
     }
   }
 
-  &__provide{
+  &__provide {
     padding: 50px 0;
     display: flex;
     align-items: center;
     margin-top: 150px;
-    &__body{
-        width: 1280px;
-        margin: auto;
+    &__body {
+      width: 1280px;
+      margin: auto;
+      display: flex;
+      flex-direction: row;
+      gap: 40px;
+      &__left {
         display: flex;
         flex-direction: row;
         gap: 40px;
-        &__left{
-            display: flex;
-            flex-direction: row;
-            gap: 40px;
-            img{
-                width: 300px;
-            }
+        img {
+          width: 300px;
         }
-        &__right{
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            div{
-                width: 70%;
-                button{
-                    margin-top: 20px;
-                    border-radius: 10px;
-                    padding: 15px 10px;
-                    background-color: rgba(136, 136, 5, 0.453);
-                }
-            }
+      }
+      &__right {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        div {
+          width: 70%;
+          button {
+            margin-top: 20px;
+            border-radius: 10px;
+            padding: 15px 10px;
+            background-color: rgba(136, 136, 5, 0.453);
+          }
         }
+      }
+    }
+  }
+
+  &__customers {
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    margin-top: 20px;
+    border: 
+    &__body {
+      width: 1280px;
+      margin: auto;
+      display: flex;
+      flex-direction: column;
     }
   }
 }
