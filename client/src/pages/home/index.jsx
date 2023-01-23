@@ -120,6 +120,37 @@ function Home() {
           </div>
         </div>
       </div>
+
+      <div className={styled.home__provide}>
+        <div className={styled.home__provide__body}>
+          <div className={styled.home__provide__body__left}>
+            <img
+              src="https://w0.peakpx.com/wallpaper/341/345/HD-wallpaper-bogdana-beautiful-beauty-cute-face-gorgeous-grey-eyes-portrait-pretty-simple.jpg"
+              alt="girl"
+            />
+            <img
+              src="https://c8.alamy.com/comp/BB48GK/portrait-of-an-azeri-man-in-baku-azerbaijan-BB48GK.jpg"
+              alt="man"
+            />
+          </div>
+          <div className={styled.home__provide__body__right}>
+            <div>
+              <h1>We Provide Highly Reliable & Effective Legal Solutions</h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Adipisci reiciendis et aliquid omnis id possimus! Praesentium
+                quisquam a cum suscipit voluptates, modi corrupti facilis
+                eveniet nam minus nobis quae atque cupiditate laboriosam illo!
+                Ullam, tempora. Autem quia amet doloribus atque est officia aut
+                alias corrupti voluptatum inventore totam pariatur ducimus
+                dolorum cum culpa reprehenderit, sit quisquam provident. Culpa,
+                suscipit cumque!
+              </p>
+              <button>Book an appointment</button>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }

@@ -27,6 +27,7 @@
     align-items: center;
     padding: 30px;
     margin-top: 20px;
+    background-color: rgba(128, 128, 128, 0.104);
     &__body {
       width: 1280px;
       margin: auto;
@@ -57,6 +58,7 @@
             rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
           border: 1px solid black;
           margin-top: 20px;
+          background-color: white;
           &__content {
             padding: 30px;
             img {
@@ -65,6 +67,42 @@
           }
         }
       }
+    }
+  }
+
+  &__provide{
+    padding: 50px 0;
+    display: flex;
+    align-items: center;
+    margin-top: 150px;
+    &__body{
+        width: 1280px;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        gap: 40px;
+        &__left{
+            display: flex;
+            flex-direction: row;
+            gap: 40px;
+            img{
+                width: 300px;
+            }
+        }
+        &__right{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            div{
+                width: 70%;
+                button{
+                    margin-top: 20px;
+                    border-radius: 10px;
+                    padding: 15px 10px;
+                    background-color: rgba(136, 136, 5, 0.453);
+                }
+            }
+        }
     }
   }
 }
