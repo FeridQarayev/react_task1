@@ -1,0 +1,24 @@
+.home{
+    &__title{
+        height: 500px;
+        object-fit: cover;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        &__card{
+            position: absolute;
+            top: 25%;
+            left: 10%;
+            height: 100px;
+            width: 400px;
+            h1{
+                font-size: 45px;
+                color: white;
+            }
+            p{
+                color: white;
+                font-size: 20px;
+            }
+        }
+    }
+}
